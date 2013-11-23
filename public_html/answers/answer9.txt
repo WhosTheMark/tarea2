@@ -1,0 +1,5 @@
+<p>
+   Es un archivo que asocia nombres de dominios con direcciones de ip.
+   Así , se podría asociar la dirección tarea2.talpor.com al ip local
+   de manera que se pruebe la configuración en la misma máquina.
+<p>

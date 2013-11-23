@@ -1,0 +1,31 @@
+.questions{font-weight: bold; text-align:left; color:black}
+
+.answers{text-align:left; color:black}
+
+h1{color:white}
+   
+
+body{
+   margin-top:20px;
+   color:white;
+   background-color:#123465;
+   text-align:center;
+}
+
+#border {
+   width:800px;
+   margin:20px auto;
+   text-align:left;
+}
+
+.container{
+   background-color:#FFFFFF;
+   padding:10px 20px 20px 20px;
+}
+
+code { font-family: monospace; padding: 0 .2em; color: #000 }
+
+footer { background: #101010; color: white; text-align: right; padding: 10px 40px;
+      font-size:14px; width:725px; margin:20px auto;}
+footer a, footer p { color: white }
+

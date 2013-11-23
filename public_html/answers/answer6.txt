@@ -1,0 +1,11 @@
+<p>
+   Es una interfaz utilizada para comunicar servidores web,
+   aplicaciones o frameworks con aplicaciones en Python.
+</p>
+
+<p>Implementaciones:</p>
+
+<ul>
+   <li><strong>NGINX:</strong> uWSGI, mod_wsgi</li>
+   <li><strong>Apache:</strong> mod_wsgi</li>
+</ul>

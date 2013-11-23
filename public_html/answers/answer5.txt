@@ -1,0 +1,12 @@
+<p>
+   GCI es un método para generar contenido dinámico
+   en páginas y aplicaciones web de manera que el
+   servidor pueda interactuar con programas externos.
+</p>
+
+<p>Implementaciones:</p>
+
+<ul>
+    <li><strong>NGINX:</strong> FastCGI, SCGI</li>
+    <li><strong>Apache:</strong> mod_cgi, mod_cgid, mod_action</li>
+</ul>

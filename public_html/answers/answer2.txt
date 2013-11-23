@@ -1,0 +1,15 @@
+<p>
+   Es un conjunto de piezas de hardware que
+   permiten mostrar contenido web (ejemplo: páginas web),
+   típicamente a través de internet.
+</p>
+
+<p>
+   Tres ejemplos de servidores pueden ser:
+</p>
+
+<ul>
+   <li>Apache</li>
+   <li>NGINX</li>
+   <li>ISS</li>
+</ul>

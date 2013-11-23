@@ -1,0 +1,23 @@
+<ul>
+
+   <li>Nginx es un servidor basado en eventos, mientras que
+       Apache es un servidor basado en procesos.
+   </li>
+
+   <li>Nginx es más difícil de personalizar porque necesita
+      archivos más complejos de configuración a comparación
+      de Apache.
+   </li>
+
+   <li>Nginx no maneja contenido dinámico directamente,
+      en cambio Apache sí.
+   </li>
+
+</ul>
+
+<p>
+   Es preferible usar nginx cuando se tiene un gran tráfico
+   de peticiones dado que las maneja más rápido y usando menos
+   recursos que Apache. Sin embargo, para servir contenido dinámico,
+   o pre-procesado en el servidor, es mejor usar Apache.
+</p>

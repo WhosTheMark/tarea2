@@ -1,0 +1,161 @@
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+      </script>
+      <script>
+
+         <!--Funciones en jQuery para cargar las respuestas usando AJAX-->
+
+         $(document).ready(function(){
+            $("#q1").click(function(){
+               $(".answers:not(#a1)").slideUp();
+               $("#a1").load("answers/answer1.txt").slideToggle("slow");
+            });
+
+            $("#q2").click(function(){
+               $(".answers:not(#a2)").slideUp();
+               $("#a2").load("answers/answer2.txt").slideToggle("slow");
+            });
+
+            $("#q3").click(function(){
+               $(".answers:not(#a3)").slideUp();
+               $("#a3").load("answers/answer3.txt").slideToggle("slow");
+            });
+
+            $("#q4").click(function(){
+               $(".answers:not(#a4)").slideUp();
+               $("#a4").load("answers/answer4.txt").slideToggle("slow");
+            });
+
+            $("#q5").click(function(){
+               $(".answers:not(#a5)").slideUp();
+               $("#a5").load("answers/answer5.txt").slideToggle("slow");
+            });
+
+            $("#q6").click(function(){
+               $(".answers:not(#a6)").slideUp();
+               $("#a6").load("answers/answer6.txt").slideToggle("slow");
+            });
+
+            $("#q7").click(function(){
+               $(".answers:not(#a7)").slideUp();
+               $("#a7").load("answers/answer7.txt").slideToggle("slow");
+            });
+
+            $("#q8").click(function(){
+               $(".answers:not(#a8)").slideUp();
+               $("#a8").load("answers/answer8.txt").slideToggle("slow");
+            });
+
+            $("#q9").click(function(){
+               $(".answers:not(#a9)").slideUp();
+               $("#a9").load("answers/answer9.txt").slideToggle("slow");
+            });
+
+         });
+      </script>
+
+      <title>DevLabs: Tarea 2</title>
+
+      <link rel="stylesheet" type="text/css" medial="all" href="tarea2/screen.css" />
+
+   </head>
+
+   <body>
+
+      <img src="img/logo.png" alt="top" />
+      <h1>DevLabs: Tarea 2</h1>
+
+      <p>
+         En esta página se muestra las respuestas a las preguntas
+         teóricas de la tarea 2.<br>
+         Haz click en la pregunta para mostrar su respuesta.
+      </p>
+
+      <div id="border">
+      <img src="img/top_bg.gif" alt="top" />
+
+      <div id="main" class="container">
+
+         <p class="questions" id="q1">1. ¿Qué es Virtual Host?</p>
+
+         <div class="answers" id="a1"></div>
+
+         <p class="questions" id="q2">
+            2. ¿Qué es un Web server? Enumere tres de ellos.
+         </p>
+
+         <div class="answers" id="a2"></div>
+
+         <p class="questions" id="q3">
+            3. ¿En qué puerto(s) suele correr un servidor web?
+         </p>
+
+         <div class="answers" id="a3"></div>
+
+         <p class="questions" id="q4">
+            4. Mencione tres diferencias significativas entre apache y
+            nginx. ¿En qué situaciones es preferible utilizar cada uno?
+         </p>
+
+         <div class="answers" id="a4"></div>
+
+         <p class="questions" id="q5">
+            5. Mencione: ¿Qué es CGI? Mencione módulos/implementaciones
+            de CGI para Apache2 y NGINX. GCI es un método para generar
+            contenido dinámico en páginas y aplicaciones web de manera
+            que el servidor pueda interactuar con programas externos.
+         </p>
+
+         <div class="answers" id="a5"></div>
+
+         <p class="questions" id="q6">
+            6. Mencione: ¿Qué es WSGI? Mencione módulos/implementaciones
+            de WSGI para Apache2 y NGINX.
+         </p>
+
+         <div class="answers" id="a6"></div>
+
+         <p class="questions" id="q7">
+            7. Mencione: ¿Qué es Rack? Mencione módulos/implementaciones
+            de Rack para Apache2 y NGINX.
+         </p>
+
+         <div class="answers" id="a7"></div>
+
+         <p class="questions" id="q8">
+            8. Explique qué hace el virtual host (nginx):
+         </p>
+
+         <div class="answers" id="a8"></div>
+
+         <p class="questions" id="q9">
+            9. Explique que funcionalidad tiene el archivo hosts
+            (/etc/hosts) y como le puede ayudar a probar la configuración
+            de un servidor web.
+         </p>
+
+         <div class="answers" id="a9"></div>
+
+      </div>
+
+      <img src="img/bottom_bg.gif" alt="bottom" />
+      </div>
+
+      <script> 
+         $(".answers").hide();
+      </script>
+
+      <footer>
+         <p>
+            Nombre: Marcos Campos. <br>
+            Carnet: #10-10108 <br>
+            Usuraio de git: <a href="https://github.com/WhosTheMark">WhosTheMark</a><br>
+            Correo: <a href="mailto:whosthemark@gmail.com">whosthemark@gmail.com</a>
+         </p>
+      </footer>
+
+
+   </body>
+</html>

@@ -1,0 +1,4 @@
+<p>
+   Virtual Host es una técnica que permite alojar más
+   de una página web en un mismo servidor.
+</p>

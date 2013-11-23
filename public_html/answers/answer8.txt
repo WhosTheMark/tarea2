@@ -1,0 +1,17 @@
+<p> Indica que el puerto para las conexiones HTTP es el 80 
+    y que el nombre del servidor será talpor.com o www.talpor.com 
+    y redirecciona a https://talpor.com 
+</p>
+
+<p>Además se podría hacer en Apache de la siguiente manera:</p>
+
+<p><code>
+   Listen 80<br>
+   NameVirtualHost *:80<br>
+
+   &lt;VirtualHost *:80&gt;<br>
+   ServerName https://talpor.com<br>
+   ServerAlias talpor.com www.talpor.com<br>
+   DocumentRoot /www/example<br>
+   &lt;/VirtualHost&gt;
+</code></p>

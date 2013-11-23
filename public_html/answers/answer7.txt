@@ -1,0 +1,9 @@
+<p>
+   Es una interfaz utilizada para comunicar servidores web,
+   aplicaciones o frameworks con aplicaciones en Ruby.
+</p>
+
+<p> 
+   Implementaciones: <strong>Phusion Passenger:</strong> es 
+   un mod_rack con versiones para nginx y para Apache
+</p>
